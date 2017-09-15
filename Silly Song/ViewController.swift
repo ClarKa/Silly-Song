@@ -50,6 +50,7 @@ class ViewController: UIViewController {
 
     @IBAction func reset(_ sender: Any) {
         nameField.text = ""
+        nameField.returnKeyType = UIReturnKeyType.done
     }
 
     @IBAction func displayLyrics(_ sender: Any) {
